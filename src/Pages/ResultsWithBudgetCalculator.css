@@ -1,0 +1,147 @@
+.panes {
+  display: flex;
+}
+.leftpane02 {
+  flex: 5;
+  margin: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.rightpane02 {
+  flex: 5;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+.serviceprovidertext02 {
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+.serviceproviderbuttonGrid02 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-left: 100px;
+}
+
+.budgetcalculatorText {
+  margin-bottom: 50px;
+  margin-left: 30px;
+  
+}
+.budgetCalculator {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.budgetcalculatorButtons {
+  margin-top: 10px;
+  margin-bottom: 1px;
+  height: 30px;
+  width: 200px;
+  border: 1px solid;
+  border-color: #787e86;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.totalamountButton {
+  margin-top: 25px;
+  margin-left: 0px;
+  height: 40px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+
+.card02 {
+  display: flex;
+  flex-direction: column; /* Change flex direction to column */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: rgb(166, 166, 166);
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 100; /* Auto height */
+  width: 150px; /* Adjust the width as needed */
+}
+
+.cardImg02 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid;
+  border-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 10px; /* Add margin to separate the image from card body */
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.Booking-button {
+  margin-top: 25px;
+  margin-left: 0px;
+  margin-left: 510px;
+  height: 40px;
+  width: 180px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.Booking-button:hover{
+  background-color: #787e86;
+}
+
+.cardButton02 {
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid;
+  background-color: #ffffff;
+  margin-top: 10px;
+  margin-left: 15px;
+  color: rgb(0, 0, 0);
+}
+.cardButton-select02{
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: #000000;
+  margin-top: 10px;
+  color: white;
+}
+
+.cardButton02:hover {
+  background-color: #787e86;
+}
+
+.cardButton-select02:hover{
+  background-color: #787e86;
+}
+
+.calculator{
+  font-style: 120%;
+}
+
+.card02.selected {
+  background: radial-gradient(circle, rgb(255, 255, 255), rgb(197, 197, 255)); /* Radial gradient for the selected cards */
+}
+
+
+.selected.cardButton-select02 {
+  background-color: black !important;
+}

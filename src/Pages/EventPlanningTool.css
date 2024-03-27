@@ -1,0 +1,150 @@
+.panes {
+  display: flex;
+}
+.leftpane01 {
+  flex: 5;
+  margin-left: 0px;
+  margin-top: 0px;
+  
+}
+.rightpane01 {
+  flex: 5;
+  margin-left: 50px;
+}
+
+.serviceprovidertext {
+  margin-left: 300px;
+  margin-bottom: 0px;
+}
+.serviceproviderbuttonGrid01 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-left: 100px;
+}
+
+.eventText {
+  margin-top: 75px;
+  margin-left: 150px;
+}
+.eventformGrid {
+  margin-top: 20px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.forrmInput-event-new {
+  width: 300px;
+  height: 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: rgb(166, 166, 166);
+}
+
+.forrmInput-event01{
+  width: 305px;
+  height: 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: rgb(166, 166, 166);
+  color: #000000;
+}
+
+.submit-button {
+  margin-left: 75px;
+  margin-top: 40px;
+  height: 30px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.submit-button:hover {
+  background-color: #787e86;
+}
+
+.card01 {
+  display: flex;
+  flex-direction: column; /* Change flex direction to column */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: rgb(166, 166, 166);
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 200px; /* Auto height */
+  width: 130px; /* Adjust the width as needed */
+}
+
+.cardImg01 {
+  height: 50px;
+  width: 100px;
+  border: 2px solid;
+  border-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 10px; /* Add margin to separate the image from card body */
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardButton {
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: #000000;
+  margin-top: 5px;
+  color: white;
+}
+
+.cardButton-01{
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+  background-color: #ffffff;
+  margin-top: 5px;
+}
+
+.cardButton-01 a {
+  display: inline-block;
+  text-decoration: none; /* Remove underline */
+  color: black; /* Change text color to black */
+}
+
+.cardButton-01:hover {
+  background-color: #787e86; /* Change background color on hover */
+}
+
+.cardButton:hover {
+  background-color: #787e86;
+}
+
+
+.heading{
+  font-size: 100%;
+}
+
+.selected {
+  background: radial-gradient(circle, rgb(255, 255, 255), rgb(197, 197, 255)); /* Radial gradient for the selected cards */
+}
+
+
+.selected.cardButton {
+  background-color: black !important;
+}
