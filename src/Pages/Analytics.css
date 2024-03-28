@@ -1,0 +1,95 @@
+.container02 {
+  display: flex;/*flex-direction: row; Layout changed to horizontal */
+  flex-direction: row; /* Change to vertical layout */
+  margin: 20px; /* Added margin to provide space between boxes */
+}
+
+.analytics-container {
+  display: flex;
+  flex-direction: column; /* Change to vertical layout */
+  margin: 20px; /* Add margin to provide space between boxes */
+}
+
+.graph-box {
+  width: 90%; /* Set width to 100% for full width */
+  height:200px;
+  padding: 20px;
+  background-color: transparent; /* Add background color to the boxes */
+  border: 1px solid #000000; /* Add border for better visual separation */
+  border-radius: 5px;
+  margin-bottom: 20px; /* Add margin bottom for space between boxes */
+  margin-left: 10%;
+}
+
+.graph-box p {
+  margin-top: 0;
+  text-align: center;
+}
+
+.chatbot-container02 {
+  width: 50%; /* Set width to 60% for the chatbot container */
+  padding: 20px; /* Add padding */
+  margin-left: 100px;
+}
+
+.file-upload02 {
+  margin-bottom: 20px; /* Added margin at the bottom */
+}
+
+.chat-history02 {
+  flex: 1; /* Fill remaining space */
+  height: 300px;
+  max-height: 300px; /* Limit height of chat history to 300px with scroll if exceeds */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  border: 1px solid #ccc; /* Add border to chat history */
+  border-radius: 5px; /* Add border radius for better appearance */
+  padding: 10px; /* Add padding for better spacing */
+  background-color: white;
+
+}
+
+.chatbot02 {
+  width: 40%; /* Set width to 50% for the chatbot container */
+  margin-left: auto; /* Align chatbot container to the right */
+}
+
+.chat-history02 {
+  height:300px;
+  max-height: 300px; /* Limit height of chat history to 200px with scroll if exceeds */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  border: 1px solid #ccc; /* Add border to chat history */
+  border-radius: 5px; /* Add border radius for better appearance */
+  padding: 10px; /* Add padding for better spacing */
+  margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+.chat-history div {
+  margin-bottom: 5px; /* Add margin between chat history items */
+}
+
+.chat-history span {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  max-width: 100%;
+
+}
+
+input[type="file"] {
+  width: calc(35%); /* Adjust input width to fit the container */
+}
+.upload-button{
+  width: 60px; /* Set button width */
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+button {
+  width: 60px; /* Set button width */
+}
+.input-query02 {
+  display: flex;
+}
+

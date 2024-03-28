@@ -1,0 +1,128 @@
+.panes {
+  display: flex;
+}
+.leftpane03 {
+  flex: 5;
+  padding: 50px;
+  margin-left: 70px;
+}
+.rightpane03 {
+  flex: 5;
+  margin-top: 0px;
+}
+
+/* Add or modify styles as necessary */
+.cardContent {
+  display: flex;
+}
+
+.cardImgContainer {
+  flex: 1;
+}
+
+.cardBodyContainer {
+  flex: 3;
+}
+
+.profilePic {
+  border-width: 1px;
+  border-style: solid;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.profileform {
+  margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.inputs {
+  height: 40px;
+  width: 400px;
+  margin-top: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(145, 145, 145);
+  background-color: white;
+}
+.form {
+  border: 5px solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #000000;
+  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+.notificationText {
+  margin-left: 55px;
+  margin-top: 10px;
+  font-weight: lighter;
+}
+.notificationButtonGrid {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+.notificationButtons {
+  margin-top: 10px;
+  height: 40px;
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.bookedProvidersText03 {
+  margin-left: 90px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.providercardGrid03 {
+  margin-left: 50px;
+}
+.card03 {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+  padding: 30px;
+  margin-top: 6px;
+  height: 100px;
+  width: 350px;
+}
+.cardImg03 {
+  height: 100px;
+  width: 150px;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.cardButton03 {
+  height: 25px;
+  width: 130px;
+  border-radius: 10px;
+  border: 1px solid;
+  background-color: black;
+  margin-top: 10px;
+  color:white
+
+}
+
+.cardButton03:hover{
+  background-color: #787e86;
+}
+.cardBodyContainer{
+  margin-top: 0px;
+  margin-left: 30px;
+}
